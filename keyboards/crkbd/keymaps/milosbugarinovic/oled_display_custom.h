@@ -1,5 +1,4 @@
-#ifndef OLED_DISPLAY_CUSTOM_H
-#define OLED_DISPLAY_CUSTOM_H
+#pragma once
 
 #include "quantum.h"
 
@@ -40,5 +39,3 @@ const char* get_os_modifier_sup(void);
 void render_modifier_icons(void);
 void render_master_screen(void);
 void render_slave_screen(void);
-
-#endif // OLED_DISPLAY_CUSTOM_H

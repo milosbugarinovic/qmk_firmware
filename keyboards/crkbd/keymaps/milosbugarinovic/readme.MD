@@ -87,3 +87,18 @@ keymap = default
 # convert json keyboard to c
 
 `qmk json2c ./crkbd_rev1_13lind.json`
+
+# edit image
+
+## font image edit
+
+https://helixfonteditor.netlify.app/
+https://joric.github.io/qle/
+
+## graphics image edit
+
+manual https://geekymartian.com/articles/qmk-oled-images
+
+https://javl.github.io/image2cpp/
+Code output format: Plain bites
+Draw mode: Vertical 1 bit per pixel
