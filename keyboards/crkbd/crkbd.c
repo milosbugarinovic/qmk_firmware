@@ -35,7 +35,8 @@ __attribute__((weak)) const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRI
 
 #ifdef OLED_ENABLE
 
-#include "keymaps/milosbugarinovic/oled_display_custom.h"
+//#include "oled_display_custom_32.h"
+#include "oled_display_custom_64.h"
 
 oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
 //    if (!is_keyboard_master()) {

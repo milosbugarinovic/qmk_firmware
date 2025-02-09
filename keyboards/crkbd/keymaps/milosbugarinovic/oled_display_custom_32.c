@@ -1,13 +1,6 @@
-#include "oled_display_custom.h"
+#include "oled_display_custom_32.h"
 #include "icon_common.h"
-
-//#if CUSTOM_ICON_SIZE == 64
-    #include "icon_64.h"
-//#elif CUSTOM_ICON_SIZE == 32
-//    #include "icon_32.h"
-//#else
-//    #error "Invalid ICON_SIZE defined"
-//#endif
+#include "icon_32.h"
 
 bool is_shift_pressed;
 bool is_ctrl_pressed;
